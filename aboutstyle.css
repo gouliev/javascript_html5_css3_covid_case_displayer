@@ -1,0 +1,32 @@
+html,
+body {
+  /* HTML and BODY styling  */
+  background-color: antiquewhite;
+  display: flex;
+  font-family: "Courier New", monospace;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.nav_bar {
+  /* NAV bar  */
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+ul1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_bar a {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 15px 20px;
+
+  font-size: 15px;
+}

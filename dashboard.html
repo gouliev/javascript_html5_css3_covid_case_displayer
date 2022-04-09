@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!-- Determining the language of our site, i.e., English -->
+
+<html lang="en"> <!-- Determining the language of our site, i.e., English -->
+
+  <head>
+    
+    <meta charset="UTF-8"/>
+    <title>Zaur's Covid 19 Tracker</title> <!-- Title of my website -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This makes our website more user-friendly and viewable in 
+  smaller devices* such as iPads or mobile phones, 
+  it scales it to proportion -->
+
+  <body style="background-color:antiquewhite;"> 
+
+    <!-- Background color, I chose antique white for the entire page -->
+    
+  </head>
+<body>
+    <div class="container">
+
+      <div class="left_side">
+
+        <img class="homepage-photo" src="/covid.jpeg" alt="Covid Banner from HSE website" width="400"/>
+      
+
+        <!-- Main photo for main home page -->
+
+        <h1 class="website_name">Covid 19 Data from GeoHive APIs</h1>
+
+      </div>
+
+      <!-- I split my website into 2 sides, a left side and the right side, similar to previous assignment -->
+
+<!-- Centering all the text in the website -->
+<style>
+
+h1 {text-align: center;}
+
+p {text-align: center;}
+
+div {text-align: center;}
+
+</style>
+
+      <div class="right_side"> <!-- Right side class attribute/pointer -->
+
+        <div class="the_total_right_side"></div> <!-- The total numbers -->
+
+          <select class="drop-down_box_total_right_side"></select> <!-- The drop down boxes x1 x2 x3 -->
+
+        <div class="the_age_groups"></div> <!-- Different age groups -->
+
+        <div class="total-weekly-numbers"></div> <!-- Weekly numbers -->
+
+      </div>
+
+    </div>
+
+    <div class="counties">
+
+      <div>
+    
+        <select class="county-drop-down"> <!-- First box -->
+
+          <br><br>
+          <br><br>
+          <br><br>
+                
+          <option value="" disabled selected hidden>Select a county</option>
+      
+        </select>
+      
+        <div class="county-data"></div> <!-- Second box -->
+
+      </div>
+      <div>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+                       
+        <select class="county-drop-down"> <!-- Third box -->
+
+          <option value="" disabled selected hidden>Select a county</option> 
+
+          <!-- <option selected disabled>Choose Tagging</option>
+          This function allows us to disable the HTML select option by default
+          https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default
+          -->
+    
+        </div>
+        <div>
+        </div>
+        <div>
+
+        </select>
+
+        <div class="county-data"></div> <!-- County box data -->
+
+      </div>
+
+      <div>
+
+        <select class="county-drop-down"> <!-- Drop down country box -->
+
+          <option value="" disabled selected hidden>Select a county</option>
+
+        </select>
+
+        <div class="county-data"></div> <!-- County data div -->
+
+      </div>
+
+    </div>
+
+    <div class="nav_bar"> <!-- NAV bar -->
+
+      <ul>
+        <!--  Class for my navigation bar, 2 options "Home" and "About"  -->
+        <a class="dashboard" href="dashboard.html">Covid Dashboard</a>
+        <a class="about" href="about.html">About & FAQ</a>
+
+      </ul>
+    </div>
+  </body>
+    <script src="dashboard.js"></script></html> <!-- JS script *good practice to put this file last on html file* -->

@@ -1,0 +1,57 @@
+.homepage-photo {
+  background-color: antiquewhite;
+}
+
+html,
+body {
+  /* HTML and BODY styling  */
+  display: flex;
+  font-family: "Courier New", monospace;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.right_side {
+  /*  Right side styling */
+  background-color: antiquewhite;
+  margin: 10px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left_side {
+  /* Left side styling  */
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin: 5px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.counties {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  /* Position fixed  */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_bar a {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 15px;
+}
